@@ -3,7 +3,7 @@
 # This script downloads and sets up the dev_setup repository
 
 # Define repository URL
-DEVSETUP_REPO="https://github.com/frankjony17/dev_setup"
+DEVSETUP_REPO="https://github.com/Marlon-gr/dev_setup"
 
 # Download the dev_setup repository
 git clone "$DEVSETUP_REPO" || {

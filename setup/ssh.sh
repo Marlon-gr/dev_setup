@@ -3,7 +3,7 @@
 install_ssh() {
     info "Setting up SSH keys"
 
-    email="frankjony17@gmail.com"
+    email="ramirezmarlon1307@gmail.com"
 
     if [ -e "$HOME/.ssh/github_authentication" ]; then
         success "Authentication key is already setup"
