@@ -1,0 +1,114 @@
+{
+  "Workspace_Formatter.excludePattern": [
+    "package-lock.json",
+    "dist",
+    "node_modules"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dark Purple - Webstorm",
+
+  "editor.stickyScroll.enabled": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.rulers": [120, 120],
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.trailingComma": "all",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+
+  "editor.fontSize": 13,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "onFocusChange",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.mergeEditor": true,
+  "git.pruneOnFetch": true,
+  "git.rebaseWhenSync": true,
+  "git.allowNoVerifyCommit": true,
+  "git.ignoreRebaseWarning": true,
+
+  "cSpell.userWords": [
+    "autouse",
+    "camelcase",
+    "cmds",
+    "coro",
+    "discoverability",
+    "disinformed",
+    "eduardojdiniz",
+    "fastify",
+    "LENGHT",
+    "loguru",
+    "openapi",
+    "powerd6",
+    "pydantic",
+    "sessionmanager",
+    "sqlalchemy",
+    "taskfile"
+  ],
+  "cSpell.diagnosticLevel": "Warning",
+
+  "search.useIgnoreFiles": true,
+  "search.useGlobalIgnoreFiles": true,
+  "explorer.confirmDelete": false,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.mypy_cache": true
+  },
+
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.createEnvironment.trigger": "off",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "ruff.nativeServer": "on",
+  "ruff.configuration": "pyproject.toml",
+  "ruff.organizeImports": true,
+  "ruff.fixAll": true,
+
+  "debug.javascript.autoAttachFilter": "disabled",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "makefile.configureOnOpen": true,
+
+  "redoclyOpenAPI.api.key": "sk_KdSo1quj062H0FQ/0X6xBCX8cm4=_VabXOHBlqeDXX3/NDijYeX903DaR9T7ZMvKMi7Yhgaw=",
+  "redoclyOpenAPI.api.region": "us",
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "redhat.telemetry.enabled": false,
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.wordWrapColumn": 120,
+  "workbench.colorCustomizations": {},
+  "window.confirmSaveUntitledWorkspace": false
+}
